@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <header>
+        <img src="./images/Flores.png" alt="Imagem de flores">
+        <h1>Lista de Tarefas</h1>
+        <button type="button">Nova Tarefa +</button>
+    </header>
+    <form>
+        <h2>Adicionar nova tarefa</h2>
+        <div class="container"><input id="nova-atividade" type="text" required placeholder="Atividade a ser realizada" />
+            <button type="submit">Adicionar</button>
+            <button id="cancel-btn" type="reset">Cancelar</button>
+        </div>
+    </form>
+    <table cellspacing="0" width="400">
+        <thead>
+            <tr>
+                <th id="tarefas">Tarefas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            </tr>
+        </tbody>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
